@@ -5,11 +5,14 @@
     font-family: 'Poppins';
 }
 
-
 .container {
     justify-content: center;
     display: flex;
 
+}
+
+body {
+    background-color: rgb(214, 207, 231);
 }
 
 /* HEADER */
@@ -18,12 +21,14 @@ header {
     text-align: center;
     background-image: linear-gradient(rgb(119, 68, 240), rgb(144, 99, 248), rgb(158, 120, 248));
     color: white;
-    height: 130px;
+    height: 786px;
+
 }
 
 h1 {
-    padding-top: 20px;
+    padding-top: 300px;
     font-weight: 500;
+    font-size: 50px;
 }
 
 header button {
@@ -33,15 +38,14 @@ header button {
     color: white;
     background: none;
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 25px;
 
 }
 
 header button:hover {
     background-color: white;
     color: blueviolet;
-    height: 30px;
-    width: 70px;
+    padding: 5px 10px;
     border-radius: 30px;
     transition: 0.5s;
     cursor: pointer;
@@ -49,15 +53,18 @@ header button:hover {
 
 /* CAIXA */
 .box {
-    width: 400px;
-    height: 500px;
-    background-color: rgb(159, 124, 241);
+    width: 500px;
+    min-height: 100px;
+
     text-align: center;
     align-items: center;
     border-radius: 30px;
     color: white;
     margin-top: 50px;
     display: none;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(rgb(119, 68, 240), rgb(144, 99, 248), rgb(158, 120, 248));
 }
 
 #title {
@@ -91,10 +98,11 @@ header button:hover {
     border: none;
     border-radius: 15px;
     height: 30px;
-    padding-left: 10px;
+    padding-left: 5px;
     background-color: white;
     font-size: 14px;
     color: rgb(28, 6, 80);
+    margin-right: 20px;
 }
 
 .box input:focus {
@@ -115,3 +123,63 @@ header button:hover {
     transition: 0.3s;
 }
 
+/* lista */
+ul {
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 80px;
+}
+
+li {
+    text-decoration: inherit;
+}
+
+li:hover {
+    cursor: default;
+    transform: scale(1.1);
+}
+
+.add {
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(119, 68, 240), rgb(144, 99, 248), rgb(158, 120, 248));
+    min-height: 200px;
+    min-width: 400px;
+    border-radius: 30px;
+}
+
+.add input {
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    color: rgb(28, 6, 80);
+}
+
+.add input:focus {
+    outline: solid 2px rgb(60, 14, 167);
+}
+
+.add button {
+    margin-top: 10px;
+    border: none;
+    width: 70px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.add button:hover {
+    cursor: pointer;
+    background-color: rgb(209, 191, 253);
+    transition: 0.3s;
+}
+
+.add h2{
+    margin-top: 20px;
+    color: white;
+}
