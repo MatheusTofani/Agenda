@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+.container {
+    justify-content: center;
+    display: flex;
+
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    background-image: linear-gradient(rgb(119, 68, 240), rgb(144, 99, 248), rgb(158, 120, 248));
+    color: white;
+    height: 130px;
+}
+
+h1 {
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+header button {
+    margin-top: 10px;
+    border: none;
+    padding: none;
+    color: white;
+    background: none;
+    border-radius: 30px;
+    font-size: 18px;
+
+}
+
+header button:hover {
+    background-color: white;
+    color: blueviolet;
+    height: 30px;
+    width: 70px;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* CAIXA */
+.box {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(159, 124, 241);
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    margin-top: 50px;
+    display: none;
+}
+
+#title {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/* FORM 2*/
+#form2 {
+    display: none;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#form2 input {
+    height: 30px;
+    width: 120px;
+}
+
+/* BOX FORMULARIO */
+.box form {
+    margin-top: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 200px;
+}
+
+.box input {
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: white;
+    font-size: 14px;
+    color: rgb(28, 6, 80);
+}
+
+.box input:focus {
+    outline: solid 2px rgb(60, 14, 167);
+}
+
+.box button {
+    margin-top: 10px;
+    border: none;
+    width: 70px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.box button:hover {
+    cursor: pointer;
+    background-color: rgb(209, 191, 253);
+    transition: 0.3s;
+}
+
