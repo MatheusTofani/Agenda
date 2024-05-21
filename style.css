@@ -140,6 +140,7 @@ li:hover {
 }
 
 .add {
+    display:none;
     text-align: center;
     margin-top: 10px;
     align-items: center;
